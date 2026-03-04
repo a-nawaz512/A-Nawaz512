@@ -1,110 +1,122 @@
 <h1 align="center">Hi 👋, I'm Allah Nawaz (A.N)</h1>
-<h3 align="center">Senior MERN Stack Developer | System Architecture Enthusiast | Problem Solver</h3>
+<h3 align="center">MERN Stack Developer | Scalable Application Builder</h3>
 
 ---
 
-## 💼 About Me
-I am a passionate **Senior MERN Stack Developer** with a strong focus on building scalable, high-performance web applications. With expertise in **full-stack development**, **cloud solutions**, and **system architecture**, I am always pushing the boundaries of what's possible in web development.
+## 🚀 About Me
 
-Currently, I am leading development at **Codes Thinker**, where I focus on architecting end-to-end solutions, optimizing performance, and ensuring that applications scale effortlessly. I’m on a mission to continue growing in **Advanced MERN**, **System Architecture**, and **DevOps**, with the goal of building real-world applications that make an impact.
-
----
-
-## 🛠️ **Tech Stack & Expertise**
-
-### **Frontend Development**
-- **React** | **Next.js** | **Redux** | **TypeScript** | **Tailwind CSS** | **HTML5** | **CSS3** | **Bootstrap**
-  - Proficient in building dynamic and responsive user interfaces using React, Next.js, and TypeScript. Optimizing performance using hooks and React features.
-  
-### **Backend Development**
-- **Node.js** | **Express.js** | **JWT** | **NodeMailer** | **Multer**
-  - Deep expertise in designing REST APIs, implementing authentication systems with JWT, and handling file uploads with Multer.
-
-### **Database Solutions**
-- **MongoDB** | **PostgreSQL**
-  - Building scalable, highly available databases and ensuring seamless data access for large-scale applications.
-
-### **Cloud & Deployment**
-- **Cloudinary** | **Render** | **Vercel**
-  - Managing cloud storage, optimizing image and media handling, and deploying apps using Render and Vercel.
-
-### **Version Control & Collaboration**
-- **Git** | **GitHub**
-  - Daily usage of Git for version control and managing repositories via GitHub.
-
-### **Tools & Workflow**
-- **VSCode** | **Docker** | **Postman** | **Jira**
-  - Comfortable with CI/CD pipelines and cloud-based deployment setups, using tools like Docker, Postman, and Jira for a streamlined workflow.
+- 🧠 Focused on building **scalable full-stack applications**
+- 🌱 Currently deepening knowledge in **Advanced MERN, System Architecture & DevOps**
+- 💼 Working with **Codes Thinker**
+- 🎯 Goal: Engineer production-ready systems, not just projects
+- ⚡ Constantly improving problem-solving & backend architecture skills
 
 ---
 
-## 🚀 **Featured Projects**
+## 🛠️ Tech Stack & Engineering Skills
 
-### **AlLOGO Super App**  
-A multi-service platform for ride-sharing, delivery, and rentals, supporting 50,000+ daily active users.  
-**Tech Stack**: MERN, 3D Maps, RESTful APIs  
-- **Role**: Full-stack Developer & Architect  
-- **Key Achievements**:  
-   - Designed and implemented core services (authentication, ride scheduling, delivery tracking).
-   - Integrated real-time tracking features using WebSockets.
-   - Optimized application for 10x performance improvements.
+### 🔹 Frontend Engineering
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=000)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=fff)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=fff)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=fff)
 
-### **E-Commerce Platform**  
-A fully functional e-commerce site, complete with product listings, shopping cart, and secure checkout.  
-**Tech Stack**: React, Redux, Node.js, MongoDB  
-- **Role**: Lead Developer  
-- **Key Achievements**:  
-   - Designed the product catalog, payment integration, and order management system.
-   - Reduced page load times by 40% through code-splitting and lazy loading.
-
-### **Authentication System**  
-A secure JWT-based authentication system with multi-factor authentication, improving security for over 10,000 active users.  
-**Tech Stack**: Node.js, MongoDB, JWT  
-- **Role**: Backend Developer  
-- **Key Achievements**:  
-   - Implemented JWT authentication and secured endpoints.
-   - Integrated OTP and email-based authentication.
+**Focus Areas:**
+- Component architecture
+- Clean state management
+- Reusable UI systems
+- Performance optimization
 
 ---
 
-## 📈 **GitHub Stats & Analytics**
+### 🔹 Backend Engineering
+![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=fff)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=fff)
 
-### GitHub Stats
+**Focus Areas:**
+- Modular architecture
+- REST API design
+- JWT authentication
+- Role-based authorization
+- Error handling patterns
+
+---
+
+### 🔹 Database & Storage
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=fff)
+
+**Focus Areas:**
+- Schema modeling
+- Indexing basics
+- Data structuring decisions
+
+---
+
+### 🔹 Tools & Workflow
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=fff)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=fff)
+![VSCode](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual-studio-code&logoColor=fff)
+
+---
+
+## 🏗️ Featured Projects
+
+### 🚗 AlLOGO Super App
+Multi-service ride, delivery & rental platform  
+**Engineering Highlights:**
+- Structured backend architecture
+- Auth & role separation
+- Modular service structure
+
+---
+
+### 🛒 E-Commerce Platform
+Full-featured store with admin panel  
+**Engineering Highlights:**
+- Category-based filtering system
+- Order lifecycle handling
+- Clean state management with Redux Toolkit
+
+---
+
+### 🔐 Authentication System
+Secure JWT-based login/signup system  
+**Engineering Highlights:**
+- Token validation flow
+- OTP verification
+- Password hashing with bcrypt
+
+---
+
+## 📊 GitHub Overview
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_REAL_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" />
 </p>
 
-### Top Languages
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+---
+
+## 🎯 Current Growth Direction
+
+- Advanced backend patterns
+- System design fundamentals
+- Performance optimization
+- Preparing for high-level MERN roles
 
 ---
 
-## 📉 **Contribution Activity Graph**  
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=react-dark&hide_border=true" />
-</p>
+## 🌐 Connect With Me
 
----
-
-## 🌐 **Connect With Me**
-<p align="left">
 <a href="https://www.linkedin.com/in/allah-nawaz-mern/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 <a href="mailto:your@email.com">
   <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
-<a href="https://dev.to/allahnawaz" target="_blank">
-  <img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" />
-</a>
-<a href="https://github.com/yourusername" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-</p>
 
 ---
 
-## ✨ **Quote of the Day**
-> *"Consistency beats talent — every single time."*
+## ✨ Personal Motto
+
+> "Consistency beats talent — every single time."
