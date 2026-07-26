@@ -73,6 +73,59 @@
 
 ---
 
+## How I Build
+
+**Request lifecycle in a typical service I ship** — middleware layering and controller–service separation, so business logic stays testable and transport concerns stay at the edge.
+
+```mermaid
+flowchart LR
+    A["Client<br/>Next.js · React<br/>RTK Query"] --> B["Express Router<br/>versioned /api/v1"]
+    B --> C["Middleware<br/>JWT · RBAC · Validation"]
+    C --> D["Controller<br/>request/response only"]
+    D --> E["Service Layer<br/>business logic"]
+    E --> F[("MongoDB<br/>PostgreSQL")]
+    E --> G["AWS S3<br/>object storage"]
+    E --> H["Stripe · Twilio<br/>NodeMailer"]
+    E -.->|domain events| I["Socket.IO"]
+    I -.->|live push| A
+
+    classDef c fill:#1F3864,stroke:#0d1b33,color:#ffffff
+    classDef d fill:#2D6A4F,stroke:#1b4332,color:#ffffff
+    classDef e fill:#6A3D9A,stroke:#432066,color:#ffffff
+    class A,B,C,D,E c
+    class F,G d
+    class H,I e
+```
+
+**Authentication & role-based access** — the path every protected request takes, including why a request gets a 401 versus a 403 and where tenant scoping is applied.
+
+```mermaid
+sequenceDiagram
+    participant U as Client
+    participant A as Auth Middleware
+    participant R as RBAC Guard
+    participant C as Controller
+    participant DB as Database
+
+    U->>A: Request + HTTP-only cookie
+    A->>A: Verify JWT signature & expiry
+    alt Invalid or expired token
+        A-->>U: 401 Unauthorized
+    else Valid
+        A->>R: Attach user identity + role
+        R->>R: Check role against route policy
+        alt Role not permitted
+            R-->>U: 403 Forbidden
+        else Authorized
+            R->>C: Proceed
+            C->>DB: Query scoped to tenant / owner
+            DB-->>U: 200 Response
+        end
+    end
+```
+
+---
+
 ## Featured Projects
 
 ### 🌿 Herbal Mart PK — Production eCommerce Platform
@@ -108,6 +161,23 @@ Multi-tenant architecture with organization-level data isolation and secure tena
 - Cross-tenant data exposure prevented by design at the schema and query layer
 - Prisma-backed models enforcing strict type safety and referential integrity across tenant boundaries
 - Scalable role and permission system supporting distinct access hierarchies per organization
+
+```mermaid
+flowchart TD
+    R["Request<br/>+ tenant context"] --> M{"Tenant<br/>resolver"}
+    M -->|org_id: A| QA["Prisma query<br/>scoped to Org A"]
+    M -->|org_id: B| QB["Prisma query<br/>scoped to Org B"]
+    QA --> DB[("Shared PostgreSQL<br/>row-level isolation")]
+    QB --> DB
+    M -->|no valid tenant| X["403 — reject"]
+
+    classDef a fill:#1F3864,stroke:#0d1b33,color:#ffffff
+    classDef b fill:#2D6A4F,stroke:#1b4332,color:#ffffff
+    classDef c fill:#8B2635,stroke:#5c1922,color:#ffffff
+    class R,M a
+    class QA,QB,DB b
+    class X c
+```
 
 `Node.js` · `Express` · `PostgreSQL` · `Prisma ORM` · `RBAC`
 
@@ -158,8 +228,16 @@ LinkedIn outreach automation with multi-account linking, campaign sequencing, an
 ## GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=AN-code07&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=AN-code07&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub stats" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AN-code07&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AN-code07&theme=tokyo-night&hide_border=true&area=true" alt="Contribution activity" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AN-code07&theme=tokyonight&hide_border=true" alt="Contribution streak" />
 </p>
 
 ---
