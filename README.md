@@ -143,38 +143,38 @@ flowchart LR
     class HM,MH,AL,CQ,AG,CP,SO prj
 ```
 
-| Project | Domain | Stack | Live |
-|---|---|---|---|
-| **Herbal Mart PK** | Production eCommerce | Next.js · Node.js · MongoDB · RTK Query · Tailwind | [herbalmart.com.pk](https://herbalmart.com.pk/) |
-| **Aleet** | Ride booking & payouts | Next.js · PostgreSQL · Stripe · AWS S3 · Twilio · Socket.IO | [aleet.app](https://www.aleet.app/) |
-| **MyHerb.pk** | Full-stack eCommerce | Next.js · Node.js · MongoDB · Redux Toolkit · Tailwind | [my-herb-pk.vercel.app](https://my-herb-pk.vercel.app/) |
-| **Clinic Queue** | Real-time workflow engine | React · Node.js · PostgreSQL · Socket.IO | [Demo](https://clinic-queue-frontend.vercel.app/) |
-| **Allogo** | Logistics & ride booking | React · Node.js · MongoDB · Socket.IO · RBAC | [Demo](https://ailogo-gamma.vercel.app/) |
-| **Check Point** | Multi-tenant SaaS | Node.js · PostgreSQL · Prisma ORM · RBAC | — |
-| **Smart Outreach** | Internal automation | Node.js · MongoDB · REST APIs · Puppeteer | — |
+<p align="center">
+  <a href="https://herbalmart.com.pk/"><img src="https://img.shields.io/badge/Herbal_Mart_PK-Live-2D6A4F?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Herbal Mart PK" /></a>
+  <a href="https://www.aleet.app/"><img src="https://img.shields.io/badge/Aleet-Live-2D6A4F?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Aleet" /></a>
+  <a href="https://my-herb-pk.vercel.app/"><img src="https://img.shields.io/badge/MyHerb.pk-Live-2D6A4F?style=for-the-badge&logo=googlechrome&logoColor=white" alt="MyHerb.pk" /></a>
+</p>
+<p align="center">
+  <a href="https://clinic-queue-frontend.vercel.app/"><img src="https://img.shields.io/badge/Clinic_Queue-Live-2D6A4F?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Clinic Queue" /></a>
+  <a href="https://ailogo-gamma.vercel.app/"><img src="https://img.shields.io/badge/Allogo-Live-2D6A4F?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Allogo" /></a>
+  <img src="https://img.shields.io/badge/Check_Point-Private-4A4A4A?style=for-the-badge" alt="Check Point" />
+  <img src="https://img.shields.io/badge/Smart_Outreach-Internal-4A4A4A?style=for-the-badge" alt="Smart Outreach" />
+</p>
 
 ---
 
-## Engineering Journey
-
-```mermaid
-timeline
-    title From first commit to production systems
-    2024 : Joined Codes Thinker
-         : Next.js + Tailwind, SSR performance work
-    2025 : Reusable React component library
-         : PostgreSQL, JWT and RBAC hardening
-    2026 : Joined Algotix AI
-         : Prisma, versioned REST APIs, Socket.IO real-time
-```
-
----
 
 ## GitHub Stats
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=AN-code07&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub stats" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AN-code07&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AN-code07&theme=tokyonight&hide_border=true" alt="Contribution streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AN-code07&theme=tokyo-night&hide_border=true&area=true&radius=8" alt="Contribution activity graph" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=AN-code07&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub trophies" />
 </p>
 
 ---
